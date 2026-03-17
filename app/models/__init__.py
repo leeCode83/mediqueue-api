@@ -1,0 +1,13 @@
+from .clinics import ClinicBase, ClinicCreate, ClinicUpdate, ClinicResponse
+from .platform_admins import PlatformAdminBase, PlatformAdminCreate, PlatformAdminUpdate, PlatformAdminResponse
+from .clinic_admins import ClinicAdminBase, ClinicAdminCreate, ClinicAdminUpdate, ClinicAdminResponse
+from .doctors import DoctorBase, DoctorCreate, DoctorUpdate, DoctorResponse
+from .patients import PatientBase, PatientCreate, PatientUpdate, PatientResponse
+from .schedules import ScheduleBase, ScheduleCreate, ScheduleUpdate, ScheduleResponse
+from .appointments import AppointmentBase, AppointmentCreate, AppointmentUpdate, AppointmentResponse
+from .queues import QueueBase, QueueCreate, QueueUpdate, QueueResponse
+from .medical_records import MedicalRecordBase, MedicalRecordCreate, MedicalRecordUpdate, MedicalRecordResponse
+from .prescriptions import PrescriptionBase, PrescriptionCreate, PrescriptionUpdate, PrescriptionResponse
+from .files import FileBase, FileCreate, FileUpdate, FileResponse
+from .notifications import NotificationBase, NotificationCreate, NotificationUpdate, NotificationResponse
+from .reports import ReportBase, ReportCreate, ReportUpdate, ReportResponse
